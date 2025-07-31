@@ -57,7 +57,7 @@
                     decisions.</p>
                 <div class="hero-buttons">
                     <a href="#projects" class="cta-button">View My Projects</a>
-                    <a href="Rahul_Arya_Resume_2025.pdf" class="cta-button secondary" download>Download Resume</a>
+                    <a href="Rahul_Arya_Resume.pdf" class="cta-button secondary" download>Download Resume</a>
                 </div>
             </div>
 
@@ -114,6 +114,87 @@
     <section id="projects" class="section">
         <h2 class="section-title">Data Science Projects</h2>
         <div class="projects-grid">
+            <!-- A/B Testing Project -->
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('ab.png')"></div>
+                <div class="project-info">
+                    <h3>A/B Testing & Regression Analysis of Facebook vs. Google Ad Campaigns</h3>
+                    <p>Performed A/B testing and regression to compare Facebook vs. Google ads and built a predictive
+                        model (R² = 81.52%) to optimize ad spend</p>
+                    <ul class="project-details">
+                        <li><strong>Technologies:</strong> Python, Scikit-learn, Pandas, Seaborn</li>
+                        <li><strong>Methods:</strong> EDA, A/B Testing, Hypothesis Testing, Linear Regression</li>
+                        <li><strong>Key Achievement:</strong> Identified Facebook Ads are statistically more
+                            conversion-efficient</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/imdeadlock/A-B_testing-Regression-Analysis" target="_blank"><i
+                                class="fab fa-github"></i> Code</a>
+                        <a href="https://drive.google.com/file/d/19kg-4B_0uKSEJbUKiSQ0Ywjna4to5KbT/view?usp=sharing"
+                            target="_blank"><i class="fas fa-chalkboard"></i>Presentation</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Credit Risk Project -->
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('default.png')"></div>
+                <div class="project-info">
+                    <h3>Credit Risk Assessment & Default Prediction</h3>
+                    <p>Developed Random Forest and Logistic Regression classifier for predicting borrower defaults or
+                        not, identifying customers at risk to default</p>
+                    <ul class="project-details">
+                        <li><strong>Technologies:</strong> Python, Scikit-learn, Pandas, Seaborn</li>
+                        <li><strong>Methods:</strong> EDA, SMOTE-ENN, Logistic Regression, Random Forest</li>
+                        <li><strong>Key Achievement:</strong>Identified renters with high loan-to-income ratios (0.38
+                            correlation) and elevated interest rates (0.34) as highest-risk segments</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/imdeadlock/Credit_Risk_Loan_Default_Prediction" target="_blank"><i
+                                class="fab fa-github"></i> Code</a>
+                        <a href="https://drive.google.com/file/d/1wKZGqpcdzb1hfJshTHYQJySAcUKKRLxY/view?usp=sharing"
+                            target="_blank"><i class="fas fa-chalkboard"></i>Presentation</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Medical Insurance Project -->
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('demand.png')"></div>
+                <div class="project-info">
+                    <h3>Retail Demand Forecasting</h3>
+                    <p>Developed regression models to forecast retail product demand using historical sales, pricing, and promotional features</p>
+                    <ul class="project-details">
+                        <li><strong>Technologies:</strong> Python, Scikit-learn, Pandas, Seaborn</li>
+                        <li><strong>Methods:</strong>EDA, Feature Engineering, Target Encoding, Random Forest Regressor, Linear Regression</li>
+                        <li><strong>Key Achievement:</strong>Improved prediction accuracy by 37% (R²: 0.78) over baseline; uncovered key sales drivers like seasonality, price elasticity (-24%), and promotional impact (34–36% uplift)</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/imdeadlock/Demand_Forecasting" target="_blank"><i
+                                class="fab fa-github"></i> Code</a>
+                        <a href="" target="_blank"><i class="fas fa-chart-line"></i>Presentation</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('airline.png')"></div>
+                <div class="project-info">
+                    <h3>Airline Satisfaction Churn Analysis</h3>
+                    <p>Developed classification models to predict airline customer churn using satisfaction score of
+                        services.</p>
+                    <ul class="project-details">
+                        <li><strong>Technologies:</strong> Python, Scikit-learn, Pandas, Seaborn</li>
+                        <li><strong>Methods:</strong> EDA, Feature Engineering, Random Forest, Logistic Regression</li>
+                        <li><strong>Key Achievement:</strong> Recommended data-driven retention strategies helping
+                            prioritize improvements for at-risk customer segments.</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/imdeadlock/airline_satisfaction_churn_analysis/blob/main/airline_customer_churn_analysis.ipynb"
+                            target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="https://drive.google.com/file/d/1qm0uJ3djUbYIUN9-3Vl5gK0R0pRcDnMu/view?usp=sharing"
+                            target="_blank"><i class="fas fa-chalkboard"></i>Presentation</a>
+                    </div>
+                </div>
+            </div>
             <!-- Medical Insurance Project -->
             <div class="project-card">
                 <div class="project-image" style="background-image: url('price.png')"></div>
@@ -122,47 +203,29 @@
                     <p>Predicted medical insurance costs using machine learning with 80% accuracy.</p>
                     <ul class="project-details">
                         <li><strong>Technologies:</strong> Python, Scikit-learn, Pandas, Seaborn</li>
-                        <li><strong>Methods:</strong> Linear Regression, EDA, Feature Engineering</li>
+                        <li><strong>Methods:</strong> Multiple Linear Regression, EDA, Feature Engineering</li>
                         <li><strong>Key Achievement:</strong> Identified 79% correlation between smoker status and
                             charges</li>
                     </ul>
                     <div class="project-links">
                         <a href="https://github.com/imdeadlock/Medical-Insurance-Price" target="_blank"><i
                                 class="fab fa-github"></i> Code</a>
-                        <a href="" target="_blank"><i class="fas fa-chart-line"></i> Analysis</a>
+                        <a href="" target="_blank"><i class="fas fa-chart-line"></i>Presentation</a>
                     </div>
                 </div>
             </div>
 
-                        <div class="project-card">
-                <div class="project-image" style="background-image: url('airline.png')"></div>
-                <div class="project-info">
-                    <h3>Airline Satisfaction Churn Analysis</h3>
-                    <p>Developed classification models to predict telecom customer attrition.</p>
-                    <ul class="project-details">
-                        <li><strong>Technologies:</strong> Python, Scikit-learn, Pandas, Seaborn</li>
-                        <li><strong>Methods:</strong> EDA, Feature Engineering, Random Forest, Logistic Regression</li>
-                        <li><strong>Key Achievement:</strong> Recommended data-driven retention strategies helping prioritize improvements for at-risk customer segments.</li>
-                    </ul>
-                    <div class="project-links">
-                        <a href="https://github.com/imdeadlock/airline_satisfaction_churn_analysis/blob/main/airline_customer_churn_analysis.ipynb" target="_blank"><i
-                                class="fab fa-github"></i> Code</a>
-                        <a href="https://drive.google.com/file/d/1qm0uJ3djUbYIUN9-3Vl5gK0R0pRcDnMu/view?usp=sharing"
-                            target="_blank"><i class="fas fa-chalkboard"></i>Presentation</a>
-                    </div>
-                </div>
-            </div>
-            
 
             <!-- Customer Churn Project -->
             <div class="project-card">
                 <div class="project-image" style="background-image: url('churn.png')"></div>
                 <div class="project-info">
-                    <h3>Customer Churn Prediction</h3>
+                    <h3>Telecom Customer Churn Prediction</h3>
                     <p>Developed classification models to predict telecom customer attrition.</p>
                     <ul class="project-details">
                         <li><strong>Technologies:</strong> Python, Scikit-learn, Pandas, Seaborn</li>
-                        <li><strong>Methods:</strong> EDA, Class balancing, Feature Correlation Analysis, Random Forest, Logistic Regression</li>
+                        <li><strong>Methods:</strong> EDA, Class balancing, Feature Correlation Analysis, Random Forest,
+                            Logistic Regression</li>
                         <li><strong>Key Achievement:</strong> Improved accuracy from 77% to 83% with Random Forest</li>
                     </ul>
                     <div class="project-links">
@@ -282,97 +345,100 @@
     </section>
 
 
-<!-- Certifications Section -->
-<section id="certifications" class="section">
-    <h2 class="section-title">Certifications</h2>
-    <div class="certifications-grid">
-        <!-- Certification 1 -->
-        <div class="certification-card">
-            <div class="certification-header">
-                <img src="ids.png" alt="cert" class="certification-logo">
-                <div>
-                    <h3>Introduction to Data Science</h3>
-                    <p class="issuer">Cisco Networking Academy</p>
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certifications-grid">
+            <!-- Certification 1 -->
+            <div class="certification-card">
+                <div class="certification-header">
+                    <img src="ids.png" alt="cert" class="certification-logo">
+                    <div>
+                        <h3>Introduction to Data Science</h3>
+                        <p class="issuer">Cisco Networking Academy</p>
+                    </div>
+                </div>
+                <div class="certification-body">
+                    <div class="certification-details">
+                        <span class="date">Issued June 16, 2025</span>
+                        <span class="duration">• 6 Hours</span>
+                    </div>
+                    <div class="course-content">
+                        <h4>Course Content:</h4>
+                        <ul>
+                            <li>Fundamentals of data science</li>
+                            <li>Data collection and cleaning</li>
+                            <li>Basic statistical analysis</li>
+                            <li>Introduction to machine learning and artificial intelligence</li>
+                            <li>Data visualization techniques</li>
+                        </ul>
+                    </div>
+                    <a href="https://www.credly.com/badges/ab00d4bd-a724-4bd0-8395-8487a8cf9514/public_url"
+                        target="_blank" class="view-cert">View Certificate <i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
-            <div class="certification-body">
-                <div class="certification-details">
-                    <span class="date">Issued June 16, 2025</span>
-                    <span class="duration">• 6 Hours</span>
-                </div>
-                <div class="course-content">
-                    <h4>Course Content:</h4>
-                    <ul>
-                        <li>Fundamentals of data science</li>
-                        <li>Data collection and cleaning</li>
-                        <li>Basic statistical analysis</li>
-                        <li>Introduction to machine learning and artificial intelligence</li>
-                        <li>Data visualization techniques</li>
-                    </ul>
-                </div>
-                <a href="https://www.credly.com/badges/ab00d4bd-a724-4bd0-8395-8487a8cf9514/public_url" target="_blank" class="view-cert">View Certificate <i class="fas fa-external-link-alt"></i></a>
-            </div>
-        </div>
 
-        <!-- Certification 2 -->
-        <div class="certification-card">
-            <div class="certification-header">
-                <img src="dae.png" alt="cert" class="certification-logo">
-                <div>
-                    <h3>Data Analytics Essentials</h3>
-                    <p class="issuer">Cisco Networking Academy</p>
+            <!-- Certification 2 -->
+            <div class="certification-card">
+                <div class="certification-header">
+                    <img src="dae.png" alt="cert" class="certification-logo">
+                    <div>
+                        <h3>Data Analytics Essentials</h3>
+                        <p class="issuer">Cisco Networking Academy</p>
+                    </div>
+                </div>
+                <div class="certification-body">
+                    <div class="certification-details">
+                        <span class="date">Issued July 01, 2025</span>
+                        <span class="duration">• 30 Hours</span>
+                    </div>
+                    <div class="course-content">
+                        <h4>Course Content:</h4>
+                        <ul>
+                            <li>Ethics and Bias in Data</li>
+                            <li>Data wrangling with Python</li>
+                            <li>Cleaning and Exploratory data analysis</li>
+                            <li>Transforming data with Excel</li>
+                            <li>SQL for data analysis</li>
+                            <li>Creating dashboards in Tableau</li>
+                            <li>Data storytelling</li>
+                        </ul>
+                    </div>
+                    <a href="https://www.credly.com/badges/703ec596-51e4-4b4b-8218-1b2d6e59ce00/public_url"
+                        target="_blank" class="view-cert">View Certificate <i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
-            <div class="certification-body">
-                <div class="certification-details">
-                    <span class="date">Issued July 01, 2025</span>
-                    <span class="duration">• 30 Hours</span>
-                </div>
-                <div class="course-content">
-                    <h4>Course Content:</h4>
-                    <ul>
-                        <li>Ethics and Bias in Data</li>
-                        <li>Data wrangling with Python</li>
-                        <li>Cleaning and Exploratory data analysis</li>
-                        <li>Transforming data with Excel</li>
-                        <li>SQL for data analysis</li>
-                        <li>Creating dashboards in Tableau</li>
-                        <li>Data storytelling</li>
-                    </ul>
-                </div>
-                <a href="https://www.credly.com/badges/703ec596-51e4-4b4b-8218-1b2d6e59ce00/public_url" target="_blank" class="view-cert">View Certificate <i class="fas fa-external-link-alt"></i></a>
-            </div>
-        </div>
 
-        <!-- Certification 3 -->
-        <div class="certification-card">
-            <div class="certification-header">
-                <img src="hr.png" alt="cert" class="certification-logo">
-                <div>
-                    <h3>Python Basic</h3>
-                    <p class="issuer">HackerRank</p>
+            <!-- Certification 3 -->
+            <div class="certification-card">
+                <div class="certification-header">
+                    <img src="hr.png" alt="cert" class="certification-logo">
+                    <div>
+                        <h3>Python Basic</h3>
+                        <p class="issuer">HackerRank</p>
+                    </div>
                 </div>
-            </div>
-            <div class="certification-body">
-                <div class="certification-details">
-                    <span class="date">Issued Aug 31 2024</span>
-                    <span class="duration"></span>
+                <div class="certification-body">
+                    <div class="certification-details">
+                        <span class="date">Issued Aug 31 2024</span>
+                        <span class="duration"></span>
+                    </div>
+                    <div class="course-content">
+                        <h4>Course Content:</h4>
+                        <ul>
+                            <li>Python syntax and basics</li>
+                            <li>Operators and control flow</li>
+                            <li>Functions and modules</li>
+                            <li>OOPS and scalar types</li>
+                            <li>Exception handling</li>
+                        </ul>
+                    </div>
+                    <a href="https://www.hackerrank.com/certificates/iframe/91a9d7768c93" target="_blank"
+                        class="view-cert">View Certificate <i class="fas fa-external-link-alt"></i></a>
                 </div>
-                <div class="course-content">
-                    <h4>Course Content:</h4>
-                    <ul>
-                        <li>Python syntax and basics</li>
-                        <li>Operators and control flow</li>
-                        <li>Functions and modules</li>
-                        <li>OOPS and scalar types</li>
-                        <li>Exception handling</li>
-                    </ul>
-                </div>
-                <a href="https://www.hackerrank.com/certificates/iframe/91a9d7768c93" target="_blank" class="view-cert">View Certificate <i class="fas fa-external-link-alt"></i></a>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="section">
@@ -383,7 +449,7 @@
             <a href="https://github.com/imdeadlock" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
             <a href="https://linkedin.com/in/rahularya271" target="_blank" title="LinkedIn"><i
                     class="fab fa-linkedin"></i></a>
-            <a href="Rahul_Arya_Resume_2025.pdf" target="_blank" title="Resume"><i class="fas fa-file-pdf"></i></a>
+            <a href="Rahul_Arya_Resume.pdf" target="_blank" title="Resume"><i class="fas fa-file-pdf"></i></a>
         </div>
     </section>
 
