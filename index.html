@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Arya | Data Science Portfolio</title>
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="Logo" class="logo-img"></a>
+        </div>
+        <div class="nav-links">
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certificates</a>
+            <a href="#contact">Contact</a>
+            <button id="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <button class="hamburger" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certificates</a>
+        <a href="#contact">Contact</a>
+        <button id="mobile-theme-toggle">
+            <i class="fas fa-moon"></i> Toggle Theme
+        </button>
+    </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Rahul Arya</span></h1>
+                <p class="hero-description">I'm a Data Science enthusiast skilled in Python and analytics, passionate
+                    about uncovering insights hidden within complex data. I leverage machine learning and statistical
+                    techniques to turn raw information into meaningful, actionable solutions that drive smarter
+                    decisions.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button">View My Projects</a>
+                    <a href="Rahul_Arya.pdf" class="cta-button secondary" target="_blank" download>Download Resume</a>
+                </div>
+            </div>
+
+            <div class="resume-card">
+                <div class="resume-header">
+                    <h2>Rahul Arya</h2>
+                </div>
+
+                <div class="resume-details">
+                    <div class="detail-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h3>M.Sc Operational Research</h3>
+                            <p>Hindu College, University of Delhi</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <i class="fas fa-briefcase"></i>
+                        <div>
+                            <h3>Research Team Leader - Data Operations</h3>
+                            <p>Max Healthcare (4 years experience)</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <i class="fas fa-star"></i>
+                        <div>
+                            <h3>Top Skills</h3>
+                            <p>Python • SPSS • SQL • Excel • Power BI</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-metrics">
+                    <div class="metric">
+                        <h4>80%</h4>
+                        <p>REGRESSION PREDICTION ACCURACY</p>
+                    </div>
+                    <div class="metric">
+                        <h4>$20M+</h4>
+                        <p>PIZZA SALES ANALYZED</p>
+                    </div>
+                    <div class="metric">
+                        <h4>83%</h4>
+                        <p>CUSTOMER CHURN PREDICTION</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Data Science Projects</h2>
+        <div class="projects-grid">
+            <!-- A/B Testing Project -->
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('img/ab.png')"></div>
+                <div class="project-info">
+                    <h3>A/B Testing & Regression Analysis of Facebook vs. Google Ad Campaigns</h3>
+                    <p>Performed A/B testing and regression to compare Facebook vs. Google ads and built a predictive
+                        model (R² = 81.52%) to optimize ad spend</p>
+                    <ul class="project-details">
+                        <li><strong>Technologies:</strong> Python, Scikit-learn, Pandas, Seaborn</li>
+                        <li><strong>Methods:</strong> EDA, A/B Testing, Hypothesis Testing, Linear Regression</li>
+                        <li><strong>Key Achievement:</strong> Identified Facebook Ads are statistically more
+                            conversion-efficient</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/imdeadlock/A-B_testing-Regression-Analysis" target="_blank"><i
+                                class="fab fa-github"></i> Code</a>
+                        <a href="https://drive.google.com/file/d/19kg-4B_0uKSEJbUKiSQ0Ywjna4to5KbT/view?usp=sharing"
+                            target="_blank"><i class="fas fa-chalkboard"></i>Presentation</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Credit Risk Project -->
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('img/default.png')"></div>
+                <div class="project-info">
+                    <h3>Credit Risk Assessment & Default Prediction</h3>
+                    <p>Developed Random Forest and Logistic Regression classifier for predicting borrower defaults or
+                        not, identifying customers at risk to default</p>
+                    <ul class="project-details">
+                        <li><strong>Technologies:</strong> Python, Scikit-learn, Pandas, Seaborn</li>
+                        <li><strong>Methods:</strong> EDA, SMOTE-ENN, Logistic Regression, Random Forest</li>
+                        <li><strong>Key Achievement:</strong>Identified renters with high loan-to-income ratios (0.38
+                            correlation) and elevated interest rates (0.34) as highest-risk segments</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/imdeadlock/Credit_Risk_Loan_Default_Prediction" target="_blank"><i
+                                class="fab fa-github"></i> Code</a>
+                        <a href="https://drive.google.com/file/d/1wKZGqpcdzb1hfJshTHYQJySAcUKKRLxY/view?usp=sharing"
+                            target="_blank"><i class="fas fa-chalkboard"></i>Presentation</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Medical Insurance Project -->
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('img/demand.png')"></div>
+                <div class="project-info">
+                    <h3>Retail Demand Forecasting</h3>
+                    <p>Developed regression models to forecast retail product demand using historical sales, pricing, and promotional features</p>
+                    <ul class="project-details">
+                        <li><strong>Technologies:</strong> Python, Scikit-learn, Pandas, Seaborn</li>
+                        <li><strong>Methods:</strong>EDA, Feature Engineering, Target Encoding, Random Forest Regressor, Linear Regression</li>
+                        <li><strong>Key Achievement:</strong>Improved prediction accuracy by 37% (R²: 0.78) over baseline; uncovered key sales drivers like seasonality, price elasticity (-24%), and promotional impact (34–36% uplift)</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/imdeadlock/Demand_Forecasting" target="_blank"><i
+                                class="fab fa-github"></i> Code</a>
+                        <a href="" target="_blank"><i class="fas fa-chart-line"></i>Presentation</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('img/airline.png')"></div>
+                <div class="project-info">
+                    <h3>Airline Satisfaction Churn Analysis</h3>
+                    <p>Developed classification models to predict airline customer churn using satisfaction score of
+                        services.</p>
+                    <ul class="project-details">
+                        <li><strong>Technologies:</strong> Python, Scikit-learn, Pandas, Seaborn</li>
+                        <li><strong>Methods:</strong> EDA, Feature Engineering, Random Forest, Logistic Regression</li>
+                        <li><strong>Key Achievement:</strong> Recommended data-driven retention strategies helping
+                            prioritize improvements for at-risk customer segments.</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/imdeadlock/airline_satisfaction_churn_analysis/blob/main/airline_customer_churn_analysis.ipynb"
+                            target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="https://drive.google.com/file/d/1qm0uJ3djUbYIUN9-3Vl5gK0R0pRcDnMu/view?usp=sharing"
+                            target="_blank"><i class="fas fa-chalkboard"></i>Presentation</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Medical Insurance Project -->
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('img/price.png')"></div>
+                <div class="project-info">
+                    <h3>Medical Insurance Price Prediction</h3>
+                    <p>Predicted medical insurance costs using machine learning with 80% accuracy.</p>
+                    <ul class="project-details">
+                        <li><strong>Technologies:</strong> Python, Scikit-learn, Pandas, Seaborn</li>
+                        <li><strong>Methods:</strong> Multiple Linear Regression, EDA, Feature Engineering</li>
+                        <li><strong>Key Achievement:</strong> Identified 79% correlation between smoker status and
+                            charges</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/imdeadlock/Medical-Insurance-Price" target="_blank"><i
+                                class="fab fa-github"></i> Code</a>
+                        <a href="" target="_blank"><i class="fas fa-chart-line"></i>Presentation</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Customer Churn Project -->
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('img/churn.png')"></div>
+                <div class="project-info">
+                    <h3>Telecom Customer Churn Prediction</h3>
+                    <p>Developed classification models to predict telecom customer attrition.</p>
+                    <ul class="project-details">
+                        <li><strong>Technologies:</strong> Python, Scikit-learn, Pandas, Seaborn</li>
+                        <li><strong>Methods:</strong> EDA, Class balancing, Feature Correlation Analysis, Random Forest,
+                            Logistic Regression</li>
+                        <li><strong>Key Achievement:</strong> Improved accuracy from 77% to 83% with Random Forest</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/imdeadlock/Telecom-Customer-Churn" target="_blank"><i
+                                class="fab fa-github"></i> Code</a>
+                        <a href="https://www.linkedin.com/posts/rahularya271_datascience-machinelearning-customerchurn-activity-7346561761891819520-1TPb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADiN3GsBtqDH9O7-T2Tb5yfaTQ6QAvLBW30"
+                            target="_blank"><i class="fas fa-chart-line"></i>Analysis</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pizza Sales Project -->
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('img/pizza_report.png')"></div>
+                <div class="project-info">
+                    <h3>Pizza Sales Analytics</h3>
+                    <p>Interactive Power BI dashboard for pizza sales performance analysis.</p>
+                    <ul class="project-details">
+                        <li><strong>Technologies:</strong> Power BI, SQL, DAX</li>
+                        <li><strong>Methods:</strong> ETL, KPI Development, Trend Analysis</li>
+                        <li><strong>Key Achievement:</strong> Identified top 5 pizzas generating $20M in sales</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/imdeadlock/Pizza-Sales-Report/blob/main/dashb.pbix"
+                            target="_blank"><i class="fas fa-chart-bar"></i> Dashboard</a>
+                        <a href="https://github.com/imdeadlock/Pizza-Sales-Report/blob/main/QUERY.sql"
+                            target="_blank"><i class="fas fa-database"></i> SQL Queries</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Zomato EDA Project -->
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('img/zomato_eda.png')"></div>
+                <div class="project-info">
+                    <h3>Zomato Exploratory Data Analysis (EDA)</h3>
+                    <p>Performed Exploratory Data Analysis (EDA) and found actionable insights.</p>
+                    <ul class="project-details">
+                        <li><strong>Technologies:</strong> Python, Jupyter Notebook</li>
+                        <li><strong>Methods:</strong> EDA, Data Visualization </li>
+                        <li><strong>Key Achievement:</strong> Found actionable insights from the dataset</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/imdeadlock/ZomatoEDA/" target="_blank"><i class="fab fa-github"></i>
+                            Code</a>
+                        <a href="https://github.com/imdeadlock/ZomatoEDA/blob/main/README.md" target="_blank"><i
+                                class="fas fa-file"></i> Description</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image" style="background-image: url('img/about.jpeg')"></div>
+            <div class="about-text">
+                <p>Hello! I am a Postgraduate in <b>Operational Research</b> from <b>Hindu College, University
+                        of Delhi</b>, with a <b>Bachelor's degree in Computer Applications (BCA)</b>. My academic
+                    journey has equipped me with a strong foundation in computer science, programming, mathematical
+                    modelling, and data analytics.</p>
+                <p>Born and raised in <b>Delhi, India</b>, I completed my schooling with a focus on <b>Physics,
+                        Chemistry, Mathematics, and Economics</b>, which sparked my interest in both analytical thinking
+                    and technology. My graduation in BCA nurtured my passion for programming, and my post-graduation in
+                    Operational Research has expanded my skills in optimization, statistical modelling, and data-driven
+                    decision-making.</p>
+                <p>I am particularly interested in the fields of <b>Machine Learning and Data Science</b>, and I am
+                    actively working on strengthening my expertise in these areas through projects and continuous
+                    learning.</p>
+                <p>Beyond academics, I enjoy playing video games like <b>FIFA, Mortal Kombat, and Assassin’s Creed</b>.
+                    I'm also an avid follower of educational YouTube channels such as <b>3Blue1Brown</b> and
+                    <b>Veritasium</b>, love to travel and i plan to <b>visit all around the world</b>, finally i love to watch <b>Sci-Fi</b> movies and i'm a big fan of <b>Marvel</b> Movies.
+                </p>
+                <p>I firmly believe that passion and dedication are the keys to success, and I strive to apply this
+                    philosophy in everything I do.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Programming & Tools</h3>
+                <ul>
+                    <li>Python (Pandas, NumPy, Scikit-learn)</li>
+                    <li>SQL (MySQL, PostgreSQL)</li>
+                    <li>Excel (Visualization, Advanced Formulas)</li>
+                    <li>Power BI</li>
+                    <li>Tableau</li>
+                    <li>SPSS</li>
+                    <li>SAS</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Data Science</h3>
+                <ul>
+                    <li>Machine Learning</li>
+                    <li>Statistical Modeling</li>
+                    <li>Data Visualization</li>
+                    <li>Predictive Analytics</li>
+                    <li>Data Wrangling</li>
+                    <li>Classfication & Regression</li>
+                    <li>Clustering</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Analytical Methods</h3>
+                <ul>
+                    <li>Operations Research</li>
+                    <li>Optimization Techniques</li>
+                    <li>Time Series Analysis</li>
+                    <li>A/B Testing</li>
+                    <li>Decision Analysis</li>
+                    <li>Forecasting</li>
+                    <li>Planning</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certifications-grid">
+            <!-- Certification 1 -->
+            <div class="certification-card">
+                <div class="certification-header">
+                    <img src="img/ids.png" alt="cert" class="certification-logo">
+                    <div>
+                        <h3>Introduction to Data Science</h3>
+                        <p class="issuer">Cisco Networking Academy</p>
+                    </div>
+                </div>
+                <div class="certification-body">
+                    <div class="certification-details">
+                        <span class="date">Issued June 16, 2025</span>
+                        <span class="duration">• 6 Hours</span>
+                    </div>
+                    <div class="course-content">
+                        <h4>Course Content:</h4>
+                        <ul>
+                            <li>Fundamentals of data science</li>
+                            <li>Data collection and cleaning</li>
+                            <li>Basic statistical analysis</li>
+                            <li>Introduction to machine learning and artificial intelligence</li>
+                            <li>Data visualization techniques</li>
+                        </ul>
+                    </div>
+                    <a href="https://www.credly.com/badges/ab00d4bd-a724-4bd0-8395-8487a8cf9514/public_url"
+                        target="_blank" class="view-cert">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Certification 2 -->
+            <div class="certification-card">
+                <div class="certification-header">
+                    <img src="img/dae.png" alt="cert" class="certification-logo">
+                    <div>
+                        <h3>Data Analytics Essentials</h3>
+                        <p class="issuer">Cisco Networking Academy</p>
+                    </div>
+                </div>
+                <div class="certification-body">
+                    <div class="certification-details">
+                        <span class="date">Issued July 01, 2025</span>
+                        <span class="duration">• 30 Hours</span>
+                    </div>
+                    <div class="course-content">
+                        <h4>Course Content:</h4>
+                        <ul>
+                            <li>Ethics and Bias in Data</li>
+                            <li>Data wrangling with Python</li>
+                            <li>Cleaning and Exploratory data analysis</li>
+                            <li>Transforming data with Excel</li>
+                            <li>SQL for data analysis</li>
+                            <li>Creating dashboards in Tableau</li>
+                            <li>Data storytelling</li>
+                        </ul>
+                    </div>
+                    <a href="https://www.credly.com/badges/703ec596-51e4-4b4b-8218-1b2d6e59ce00/public_url"
+                        target="_blank" class="view-cert">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Certification 3 -->
+            <div class="certification-card">
+                <div class="certification-header">
+                    <img src="img/hr.png" alt="cert" class="certification-logo">
+                    <div>
+                        <h3>Python Basic</h3>
+                        <p class="issuer">HackerRank</p>
+                    </div>
+                </div>
+                <div class="certification-body">
+                    <div class="certification-details">
+                        <span class="date">Issued Aug 31 2024</span>
+                        <span class="duration"></span>
+                    </div>
+                    <div class="course-content">
+                        <h4>Course Content:</h4>
+                        <ul>
+                            <li>Python syntax and basics</li>
+                            <li>Operators and control flow</li>
+                            <li>Functions and modules</li>
+                            <li>OOPS and scalar types</li>
+                            <li>Exception handling</li>
+                        </ul>
+                    </div>
+                    <a href="https://www.hackerrank.com/certificates/iframe/91a9d7768c93" target="_blank"
+                        class="view-cert">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Get In Touch</h2>
+        <p>Interested in discussing data science opportunities or collaborations? I'd love to hear from you!</p>
+        <div class="contact-links">
+            <a href="mailto:rahularya271@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/imdeadlock" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/rahularya271" target="_blank" title="LinkedIn"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="Rahul_Arya.pdf" target="_blank" title="Resume"><i class="fas fa-file-pdf"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Rahul Arya. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
