@@ -1,9 +1,9 @@
 :root {
   /* Light Theme */
-  --primary-color: #333;
-  --secondary-color: #666;
+  --primary-color: #111827;
+  --secondary-color: #111827;
   --background-color: #f8f8f8;
-  --text-color: #333;
+  --text-color: #111827;
   --highlight-color: #3a86ff;
   --white: #ffffff;
   --card-bg: #ffffff;
