@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,22 +12,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <!-- Navigation -->
     <nav>
         <div class="logo">
-            <a href="index.html"><img src="img/logo.png" alt="Logo" class="logo-img"></a>
+            <a href="index.html"><img src="files/img/logo.png" alt="Logo" class="logo-img"></a>
         </div>
         <div class="nav-links">
-            <a href="#projects">Projects</a>
             <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
             <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
             <a href="#certifications">Certificates</a>
             <a href="#contact">Contact</a>
-            <button id="theme-toggle" aria-label="Toggle dark mode">
-                <i class="fas fa-moon"></i>
-            </button>
         </div>
         <button class="hamburger" aria-label="Menu">
             <i class="fas fa-bars"></i>
@@ -42,22 +39,17 @@
         <a href="#skills">Skills</a>
         <a href="#certifications">Certificates</a>
         <a href="#contact">Contact</a>
-        <button id="mobile-theme-toggle">
-            <i class="fas fa-moon"></i> Toggle Theme
-        </button>
     </div>
+
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-container">
             <div class="hero-text">
                 <h1>Hi, I'm <span class="highlight">Rahul Arya</span></h1>
-                <p class="hero-description">I'm a Data Science enthusiast skilled in Python and analytics, passionate
-                    about uncovering insights hidden within complex data. I leverage machine learning and statistical
-                    techniques to turn raw information into meaningful, actionable solutions that drive smarter
-                    decisions.</p>
+                <p class="hero-description">I'm a Data Science enthusiast skilled in Python and analytics, passionate about uncovering insights hidden within complex data. I leverage machine learning and statistical techniques to turn raw information into meaningful, actionable solutions that drive smarter decisions.</p>
                 <div class="hero-buttons">
                     <a href="#projects" class="cta-button">View My Projects</a>
-                    <a href="Rahul_Arya.pdf" class="cta-button secondary" target="_blank" download>Download Resume</a>
+                    <a href="files/Rahul_Arya.pdf" class="cta-button secondary" target="_blank" download>Download Resume</a>
                 </div>
             </div>
 
@@ -65,7 +57,6 @@
                 <div class="resume-header">
                     <h2>Rahul Arya</h2>
                 </div>
-
                 <div class="resume-details">
                     <div class="detail-item">
                         <i class="fas fa-graduation-cap"></i>
@@ -74,7 +65,6 @@
                             <p>Hindu College, University of Delhi</p>
                         </div>
                     </div>
-
                     <div class="detail-item">
                         <i class="fas fa-briefcase"></i>
                         <div>
@@ -82,16 +72,14 @@
                             <p>Max Healthcare (4 years experience)</p>
                         </div>
                     </div>
-
                     <div class="detail-item">
                         <i class="fas fa-star"></i>
                         <div>
                             <h3>Top Skills</h3>
-                            <p>Python • SPSS • SQL • Excel • Power BI</p>
+                            <p>Python • Excel • Power BI • SQL • SPSS</p>
                         </div>
                     </div>
                 </div>
-
                 <div class="resume-metrics">
                     <div class="metric">
                         <h4>80%</h4>
@@ -109,14 +97,542 @@
             </div>
         </div>
     </section>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image" style="background-image: url('files/img/about.jpeg')"></div>
+            <div class="about-text">
+                <p>Hello! I am a Postgraduate in <b>Operational Research</b> from <b>Hindu College, University
+                        of Delhi</b>, with a <b>Bachelor's degree in Computer Applications (BCA)</b>. My academic
+                    journey has equipped me with a strong foundation in computer science, programming, mathematical
+                    modelling, and data analytics.</p>
+                <p>Born and raised in <b>Delhi, India</b>, I completed my schooling with a focus on <b>Physics,
+                        Chemistry, Mathematics, and Economics</b>, which sparked my interest in both analytical thinking
+                    and technology. My graduation in BCA nurtured my passion for programming, and my post-graduation in
+                    Operational Research has expanded my skills in optimization, statistical modelling, and data-driven
+                    decision-making.</p>
+                <p>I am particularly interested in the fields of <b>Machine Learning and Data Science</b>, and I am
+                    actively working on strengthening my expertise in these areas through projects and continuous
+                    learning.</p>
+                <p>Beyond academics, I enjoy playing video games like <b>FIFA, Mortal Kombat, and Assassin’s Creed</b>.
+                    I'm also an avid follower of educational YouTube channels such as <b>3Blue1Brown</b> and
+                    <b>Veritasium</b>, love to travel and i plan to <b>visit all around the world</b>, finally i love to
+                    watch <b>Sci-Fi</b> movies and i'm a big fan of <b>Marvel</b> Movies.
+                </p>
+                <p>I firmly believe that passion and dedication are the keys to success, and I strive to apply this
+                    philosophy in everything I do.</p>
+            </div>
+        </div>
+    </section>
 
-    <!-- Projects Section -->
+    <!-- Experience Section -->
+    <section id="experience" class="full-screen-section">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="experience-container">
+            <div class="experience-content">
+                <div class="experience-details">
+                    <h3></h3>
+                    <h3>Research Team Lead – Data Operations</h3>
+                    <h4>Max Healthcare, Saket, New Delhi</h4>
+                    <div class="date">September 2019 – September 2023</div>
+                    <div class="responsibilities">
+                        <p>Collected, cleaned, and validated large-scale surveillance data using Excel, ensuring
+                            high data integrity through rigorous QA/QC and governance protocols.</p>
+                        <p>Designed and delivered monthly Power BI and Excel dashboards on data quality and
+                            performance, equipping central teams and funding stakeholders with actionable insights.
+                        </p>
+                        <p>Developed standardized Excel workflows and reporting templates, improving data
+                            consistency and reporting efficiency by 10%.</p>
+                        <p>Streamlined field operations by troubleshooting data-related and technical challenges,
+                            contributing to a 5% cost reduction.</p>
+                    </div>
+                </div>
+                <div class="experience-achievements">
+                    <h4>Key Achievements</h4>
+                    <div class="achievements-list">
+                        <div class="achievement-item">
+                            <div class="skill-icon-img">
+                                <img src="files/img/acknowledgement.png" alt="acknowledgement">
+                            </div>
+                            <div class="achievement-content">
+                                <h5>Acknowledged for Data Collection and Validation</h5>
+                                <p>Data collection and validation for research on <b>Effectiveness of Convalescent
+                                        Plasma in Indian Patients with COVID-19</b>, published in PubMed <a
+                                        href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7891064/">(https://pmc.ncbi.nlm.nih.gov/articles/PMC7891064/)</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="skill-icon-img">
+                                <img src="files/img/ghru.jpg" alt="n-GHRU">
+                            </div>
+                            <div class="achievement-content">
+                                <h5>n-GHRU Project (Global Health Research Unit, South Asia)</h5>
+                                <p>Core team member, later promoted to Team Lead; collected participant data from
+                                    urban slum populations (Health & Lifestyle Questionnaire) and performed
+                                    extensive data quality checks.<a
+                                        href="https://www.ghru-southasia.org/">(https://www.ghru-southasia.org/)</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="skill-icon-img">
+                                <img src="files/img/team-lead.png" alt="Team Lead">
+                            </div>
+                            <div class="achievement-content">
+                                <h5>Team Leader (Cardio-Metabolic Risk Study)</h5>
+                                <p>Led questionnaire design, data collection, cleaning, validation, and presentation
+                                    for a study quantifying cardio-metabolic risk relationships in the urban Indian
+                                    population, including identification and evaluation of disease biomarkers.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="full-screen-section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-container">
+                <!-- Master of Operational Research -->
+                <div class="education-card mor-card">
+                    <div class="education-header">
+                        <div class="education-icon">
+                            <img class="education-icon" src="files/img/hc.png" alt="Hindu College">
+                        </div>
+                        <div class="education-title">
+                            <h3>Master of Operational Research (MOR)</h3>
+                            <h4>Hindu College, University of Delhi</h4>
+                            <div class="education-date">June 2023 – May 2025 | CGPA: 7</div>
+                        </div>
+                    </div>
+                    <div class="education-description">
+                        <p>A comprehensive program focusing on mathematical modeling, optimization techniques, and
+                            data-driven decision making for complex business problems.</p>
+                    </div>
+                    <div class="education-coursework">
+                        <h4 class="coursework-title">Relevant Coursework</h4>
+                        <div class="coursework-categories">
+                            <div class="coursework-category">
+                                <div class="category-header">
+                                    <i class="fas fa-tachometer-alt"></i>
+
+                                    <h5>Optimization</h5>
+                                </div>
+                                <div class="category-subjects">
+                                    <span class="subject">Linear Programming</span>
+                                    <span class="subject">Convex Optimization</span>
+                                    <span class="subject">Scheduling</span>
+                                </div>
+                            </div>
+                            <div class="coursework-category">
+                                <div class="category-header">
+                                    <i class="fas fa-chart-bar"></i>
+                                    <h5>Analytics</h5>
+                                </div>
+                                <div class="category-subjects">
+                                    <span class="subject">Statistics</span>
+                                    <span class="subject">Econometrics</span>
+                                    <span class="subject">Data Warehousing & Mining</span>
+                                </div>
+                            </div>
+                            <div class="coursework-category">
+                                <div class="category-header">
+                                    <i class="fas fa-cogs"></i>
+                                    <h5>Management</h5>
+                                </div>
+                                <div class="category-subjects">
+                                    <span class="subject">Supply Chain</span>
+                                    <span class="subject">Marketing Research</span>
+                                    <span class="subject">Finance</span>
+                                </div>
+                            </div>
+                            <div class="coursework-category">
+                                <div class="category-header">
+                                    <i class="fas fa-laptop-code"></i>
+                                    <h5>Technology</h5>
+                                </div>
+                                <div class="category-subjects">
+                                    <span class="subject">Python</span>
+                                    <span class="subject">SQL</span>
+                                    <span class="subject">Software Eng.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BCA -->
+                <div class="education-card">
+                    <div class="education-header">
+                        <div class="education-icon">
+                            <img class="education-icon" src="files/img/ignou.png" alt="IGNOU">
+                        </div>
+                        <div class="education-title">
+                            <h3>Bachelor of Computer Application (BCA)</h3>
+                            <h4>Mohyal Educational & Research Institute of Technology, IGNOU</h4>
+                            <div class="education-date">June 2020 – May 2023 | CGPA: 7.2</div>
+                        </div>
+                    </div>
+                    <div class="education-description-bca">
+                        <p>Comprehensive computer science foundation with focus on programming, software development,
+                            and analytical problem-solving.</p>
+                    </div>
+                    <div class="education-coursework">
+                        <h4 class="coursework-title">Relevant Coursework</h4>
+                        <div class="coursework-categories">
+                            <div class="coursework-category">
+                                <div class="category-header">
+                                    <i class="fas fa-calculator"></i>
+                                    <h5>Mathematics</h5>
+                                </div>
+                                <div class="category-subjects">
+                                    <span class="subject">Discrete Math</span>
+                                    <span class="subject">Statistics</span>
+                                    <span class="subject">Numerical Methods</span>
+                                </div>
+                            </div>
+                            <div class="coursework-category">
+                                <div class="category-header">
+                                    <i class="fas fa-code"></i>
+                                    <h5>Programming</h5>
+                                </div>
+                                <div class="category-subjects">
+                                    <span class="subject">C/C++</span>
+                                    <span class="subject">Java</span>
+                                    <span class="subject">Python</span>
+                                    <span class="subject">Data Structures</span>
+                                </div>
+                            </div>
+                            <div class="coursework-category">
+                                <div class="category-header">
+                                    <i class="fas fa-database"></i>
+                                    <h5>Data Management</h5>
+                                </div>
+                                <div class="category-subjects">
+                                    <span class="subject">DBMS</span>
+                                    <span class="subject">Systems Analysis</span>
+                                    <span class="subject">E-Commerce</span>
+                                </div>
+                            </div>
+                            <div class="coursework-category">
+                                <div class="category-header">
+                                    <i class="fas fa-brain"></i>
+                                    <h5>Analytics</h5>
+                                </div>
+                                <div class="category-subjects">
+                                    <span class="subject">Business Comm.</span>
+                                    <span class="subject">Algorithms</span>
+                                    <span class="subject">Project Mgmt.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education-diagram-section">
+        <div class="diagram-container">
+            <img src="files/img/operations_research.png" alt="Data Science Education Diagram">
+        </div>
+    </section>
+
+
+
+    <!-- Analytical Highlights Section (concise) -->
+    <section id="analytics" class="section">
+        <h2 class="section-title">Analytical Highlights</h2>
+        <div class="analytics-container">
+            <div class="analytics-category">
+                <h3>Programming & Tools</h3>
+                <ul>
+                    <li>Python (Pandas, NumPy, Scikit‑learn)</li>
+                    <li>SQL (MySQL, PostgreSQL)</li>
+                    <li>Excel, Power BI, Tableau, SPSS</li>
+                </ul>
+            </div>
+            <div class="analytics-category">
+                <h3>Data Science</h3>
+                <ul>
+                    <li>ML: Classification, Regression, Clustering</li>
+                    <li>EDA & Visualization</li>
+                    <li>Predictive Analytics</li>
+                </ul>
+            </div>
+            <div class="analytics-category">
+                <h3>Analytical Methods</h3>
+                <ul>
+                    <li>Operations Research & Optimization</li>
+                    <li>Time Series & Forecasting</li>
+                    <li>A/B Testing & Decision Analysis</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="full-screen-section">
+        <div class="container">
+            <div class="section-title">
+                <h3>Tech Stack & Skills</h3>
+                <p style="font-size: 1.2rem;">Tools I love and use to build data-driven solutions</p>
+            </div>
+            <div class="skills-visual-container">
+                <!-- Programming Skills -->
+                <div class="skill-category-visual">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Programming & Data Science</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                    alt="Python">
+                            </div>
+                            <div class="skill-info">
+                                <h4>Python</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                                    alt="Pandas">
+                            </div>
+                            <div class="skill-info">
+                                <h4>Pandas</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                                    alt="NumPy">
+                            </div>
+                            <div class="skill-info">
+                                <h4>NumPy</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="8"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <img src="files/img/scikit-learn.svg" alt="Scikit-Learn">
+                            </div>
+                            <div class="skill-info">
+                                <h4>Scikit-Learn</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>SQL</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Git</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Software -->
+                <div class="skill-category-visual">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Tools & Software</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <i class="fas fa-file-excel"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Excel (Visualization, Advanced Formulas)</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="95"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Power BI</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Tableau</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>MySQL, PostgreSQL</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <i class="fab fa-microsoft"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Microsoft Office</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>SPSS</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="60"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Analytics & Soft Skills -->
+                <div class="skill-category-visual">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>Analytics & Soft Skills</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Machine Learning</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Predictive Modeling</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <i class="fas fa-flask"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>A/B Testing</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <i class="fas fa-puzzle-piece"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Problem-Solving</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Communication</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item-visual">
+                            <div class="skill-icon-img">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Leadership</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-level="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="projects" class="section">
         <h2 class="section-title">Data Science Projects</h2>
         <div class="projects-grid">
             <!-- A/B Testing Project -->
             <div class="project-card">
-                <div class="project-image" style="background-image: url('img/ab.png')"></div>
+                <div class="project-image" style="background-image: url('files/img/ab.png')"></div>
                 <div class="project-info">
                     <h3>A/B Testing & Regression Analysis of Facebook vs. Google Ad Campaigns</h3>
                     <p>Performed A/B testing and regression to compare Facebook vs. Google ads and built a predictive
@@ -137,7 +653,7 @@
             </div>
             <!-- Credit Risk Project -->
             <div class="project-card">
-                <div class="project-image" style="background-image: url('img/default.png')"></div>
+                <div class="project-image" style="background-image: url('files/img/default.png')"></div>
                 <div class="project-info">
                     <h3>Credit Risk Assessment & Default Prediction</h3>
                     <p>Developed Random Forest and Logistic Regression classifier for predicting borrower defaults or
@@ -158,14 +674,18 @@
             </div>
             <!-- Medical Insurance Project -->
             <div class="project-card">
-                <div class="project-image" style="background-image: url('img/demand.png')"></div>
+                <div class="project-image" style="background-image: url('files/img/demand.png')"></div>
                 <div class="project-info">
                     <h3>Retail Demand Forecasting</h3>
-                    <p>Developed regression models to forecast retail product demand using historical sales, pricing, and promotional features</p>
+                    <p>Developed regression models to forecast retail product demand using historical sales, pricing,
+                        and promotional features</p>
                     <ul class="project-details">
                         <li><strong>Technologies:</strong> Python, Scikit-learn, Pandas, Seaborn</li>
-                        <li><strong>Methods:</strong>EDA, Feature Engineering, Target Encoding, Random Forest Regressor, Linear Regression</li>
-                        <li><strong>Key Achievement:</strong>Improved prediction accuracy by 37% (R²: 0.78) over baseline; uncovered key sales drivers like seasonality, price elasticity (-24%), and promotional impact (34–36% uplift)</li>
+                        <li><strong>Methods:</strong>EDA, Feature Engineering, Target Encoding, Random Forest Regressor,
+                            Linear Regression</li>
+                        <li><strong>Key Achievement:</strong>Improved prediction accuracy by 37% (R²: 0.78) over
+                            baseline; uncovered key sales drivers like seasonality, price elasticity (-24%), and
+                            promotional impact (34–36% uplift)</li>
                     </ul>
                     <div class="project-links">
                         <a href="https://github.com/imdeadlock/Demand_Forecasting" target="_blank"><i
@@ -176,7 +696,7 @@
             </div>
 
             <div class="project-card">
-                <div class="project-image" style="background-image: url('img/airline.png')"></div>
+                <div class="project-image" style="background-image: url('files/img/airline.png')"></div>
                 <div class="project-info">
                     <h3>Airline Satisfaction Churn Analysis</h3>
                     <p>Developed classification models to predict airline customer churn using satisfaction score of
@@ -197,7 +717,7 @@
             </div>
             <!-- Medical Insurance Project -->
             <div class="project-card">
-                <div class="project-image" style="background-image: url('img/price.png')"></div>
+                <div class="project-image" style="background-image: url('files/img/price.png')"></div>
                 <div class="project-info">
                     <h3>Medical Insurance Price Prediction</h3>
                     <p>Predicted medical insurance costs using machine learning with 80% accuracy.</p>
@@ -218,7 +738,7 @@
 
             <!-- Customer Churn Project -->
             <div class="project-card">
-                <div class="project-image" style="background-image: url('img/churn.png')"></div>
+                <div class="project-image" style="background-image: url('files/img/churn.png')"></div>
                 <div class="project-info">
                     <h3>Telecom Customer Churn Prediction</h3>
                     <p>Developed classification models to predict telecom customer attrition.</p>
@@ -239,7 +759,7 @@
 
             <!-- Pizza Sales Project -->
             <div class="project-card">
-                <div class="project-image" style="background-image: url('img/pizza_report.png')"></div>
+                <div class="project-image" style="background-image: url('files/img/pizza_report.png')"></div>
                 <div class="project-info">
                     <h3>Pizza Sales Analytics</h3>
                     <p>Interactive Power BI dashboard for pizza sales performance analysis.</p>
@@ -258,7 +778,7 @@
             </div>
             <!-- Zomato EDA Project -->
             <div class="project-card">
-                <div class="project-image" style="background-image: url('img/zomato_eda.png')"></div>
+                <div class="project-image" style="background-image: url('files/img/zomato_eda.png')"></div>
                 <div class="project-info">
                     <h3>Zomato Exploratory Data Analysis (EDA)</h3>
                     <p>Performed Exploratory Data Analysis (EDA) and found actionable insights.</p>
@@ -277,79 +797,6 @@
             </div>
         </div>
     </section>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-        <h2 class="section-title">About Me</h2>
-        <div class="about-content">
-            <div class="about-image" style="background-image: url('img/about.jpeg')"></div>
-            <div class="about-text">
-                <p>Hello! I am a Postgraduate in <b>Operational Research</b> from <b>Hindu College, University
-                        of Delhi</b>, with a <b>Bachelor's degree in Computer Applications (BCA)</b>. My academic
-                    journey has equipped me with a strong foundation in computer science, programming, mathematical
-                    modelling, and data analytics.</p>
-                <p>Born and raised in <b>Delhi, India</b>, I completed my schooling with a focus on <b>Physics,
-                        Chemistry, Mathematics, and Economics</b>, which sparked my interest in both analytical thinking
-                    and technology. My graduation in BCA nurtured my passion for programming, and my post-graduation in
-                    Operational Research has expanded my skills in optimization, statistical modelling, and data-driven
-                    decision-making.</p>
-                <p>I am particularly interested in the fields of <b>Machine Learning and Data Science</b>, and I am
-                    actively working on strengthening my expertise in these areas through projects and continuous
-                    learning.</p>
-                <p>Beyond academics, I enjoy playing video games like <b>FIFA, Mortal Kombat, and Assassin’s Creed</b>.
-                    I'm also an avid follower of educational YouTube channels such as <b>3Blue1Brown</b> and
-                    <b>Veritasium</b>, love to travel and i plan to <b>visit all around the world</b>, finally i love to watch <b>Sci-Fi</b> movies and i'm a big fan of <b>Marvel</b> Movies.
-                </p>
-                <p>I firmly believe that passion and dedication are the keys to success, and I strive to apply this
-                    philosophy in everything I do.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-        <h2 class="section-title">Technical Skills</h2>
-        <div class="skills-container">
-            <div class="skill-category">
-                <h3>Programming & Tools</h3>
-                <ul>
-                    <li>Python (Pandas, NumPy, Scikit-learn)</li>
-                    <li>SQL (MySQL, PostgreSQL)</li>
-                    <li>Excel (Visualization, Advanced Formulas)</li>
-                    <li>Power BI</li>
-                    <li>Tableau</li>
-                    <li>SPSS</li>
-                    <li>SAS</li>
-                </ul>
-            </div>
-            <div class="skill-category">
-                <h3>Data Science</h3>
-                <ul>
-                    <li>Machine Learning</li>
-                    <li>Statistical Modeling</li>
-                    <li>Data Visualization</li>
-                    <li>Predictive Analytics</li>
-                    <li>Data Wrangling</li>
-                    <li>Classfication & Regression</li>
-                    <li>Clustering</li>
-                </ul>
-            </div>
-            <div class="skill-category">
-                <h3>Analytical Methods</h3>
-                <ul>
-                    <li>Operations Research</li>
-                    <li>Optimization Techniques</li>
-                    <li>Time Series Analysis</li>
-                    <li>A/B Testing</li>
-                    <li>Decision Analysis</li>
-                    <li>Forecasting</li>
-                    <li>Planning</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-
     <!-- Certifications Section -->
     <section id="certifications" class="section">
         <h2 class="section-title">Certifications</h2>
@@ -357,7 +804,7 @@
             <!-- Certification 1 -->
             <div class="certification-card">
                 <div class="certification-header">
-                    <img src="img/ids.png" alt="cert" class="certification-logo">
+                    <img src="files/img/ids.png" alt="cert" class="certification-logo">
                     <div>
                         <h3>Introduction to Data Science</h3>
                         <p class="issuer">Cisco Networking Academy</p>
@@ -386,7 +833,7 @@
             <!-- Certification 2 -->
             <div class="certification-card">
                 <div class="certification-header">
-                    <img src="img/dae.png" alt="cert" class="certification-logo">
+                    <img src="files/img/dae.png" alt="cert" class="certification-logo">
                     <div>
                         <h3>Data Analytics Essentials</h3>
                         <p class="issuer">Cisco Networking Academy</p>
@@ -417,7 +864,7 @@
             <!-- Certification 3 -->
             <div class="certification-card">
                 <div class="certification-header">
-                    <img src="img/hr.png" alt="cert" class="certification-logo">
+                    <img src="files/img/hr.png" alt="cert" class="certification-logo">
                     <div>
                         <h3>Python Basic</h3>
                         <p class="issuer">HackerRank</p>
@@ -446,24 +893,65 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section">
-        <h2 class="section-title">Get In Touch</h2>
-        <p>Interested in discussing data science opportunities or collaborations? I'd love to hear from you!</p>
-        <div class="contact-links">
-            <a href="mailto:rahularya271@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
-            <a href="https://github.com/imdeadlock" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com/in/rahularya271" target="_blank" title="LinkedIn"><i
-                    class="fab fa-linkedin"></i></a>
-            <a href="Rahul_Arya.pdf" target="_blank" title="Resume"><i class="fas fa-file-pdf"></i></a>
+    <section id="contact" class="full-screen-section-contact section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-desc">Interested in discussing data science opportunities or collaborations? I'd love to
+                hear from you!</p>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>rahularya271@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>New Delhi, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="contact-links">
+                <a href="mailto:rahularya271@gmail.com" target="_blank" title="Email"><i
+                        class="fas fa-envelope"></i></a>
+                <a href="https://github.com/imdeadlock" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/rahularya271" target="_blank" title="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="files/Rahul_Arya.pdf" target="_blank" title="Resume"><i class="fas fa-file-pdf"></i></a>
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Rest of your HTML content remains the same -->
+    <!-- About, Experience, Education, Skills, Projects, Certifications, Contact sections -->
+
     <footer>
         <p>&copy; <span id="year"></span> Rahul Arya. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
-
 </html>
