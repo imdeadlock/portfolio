@@ -20,6 +20,7 @@
         </div>
         <div class="nav-links">
             <a href="#about">About</a>
+            <a href="#experience">Experience</a>
             <a href="#education">Education</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
@@ -68,8 +69,8 @@
                     <div class="detail-item">
                         <i class="fas fa-briefcase"></i>
                         <div>
-                            <h3>Research Intern - Data Operations</h3>
-                            <p>Max Healthcare</p>
+                            <h3>Research Team Leader - Data Operations</h3>
+                            <p>Max Healthcare (4 years experience)</p>
                         </div>
                     </div>
                     <div class="detail-item">
@@ -126,7 +127,76 @@
             </div>
         </div>
     </section>
+<!--    <!-- Experience Section -->
+    <section id="experience" class="full-screen-section">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="experience-container">
+            <div class="experience-content">
+                <div class="experience-details">
+                    <h3></h3>
+                    <h3>Research Team Lead – Data Operations</h3>
+                    <h4>Max Healthcare, Saket, New Delhi</h4>
+                    <div class="date">September 2019 – September 2023</div>
+                    <div class="responsibilities">
+                        <p>Collected, cleaned, and validated large-scale surveillance data using Excel, ensuring
+                            high data integrity through rigorous QA/QC and governance protocols.</p>
+                        <p>Designed and delivered monthly Power BI and Excel dashboards on data quality and
+                            performance, equipping central teams and funding stakeholders with actionable insights.
+                        </p>
+                        <p>Developed standardized Excel workflows and reporting templates, improving data
+                            consistency and reporting efficiency by 10%.</p>
+                        <p>Streamlined field operations by troubleshooting data-related and technical challenges,
+                            contributing to a 5% cost reduction.</p>
+                    </div>
+                </div>
+                <div class="experience-achievements">
+                    <h4>Key Achievements</h4>
+                    <div class="achievements-list">
+                        <div class="achievement-item">
+                            <div class="skill-icon-img">
+                                <img src="files/img/acknowledgement.png" alt="acknowledgement">
+                            </div>
+                            <div class="achievement-content">
+                                <h5>Acknowledged for Data Collection and Validation</h5>
+                                <p>Data collection and validation for research on <b>Effectiveness of Convalescent
+                                        Plasma in Indian Patients with COVID-19</b>, published in PubMed <a
+                                        href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7891064/">(https://pmc.ncbi.nlm.nih.gov/articles/PMC7891064/)</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="skill-icon-img">
+                                <img src="files/img/ghru.jpg" alt="n-GHRU">
+                            </div>
+                            <div class="achievement-content">
+                                <h5>n-GHRU Project (Global Health Research Unit, South Asia)</h5>
+                                <p>Core team member, later promoted to Team Lead; collected participant data from
+                                    urban slum populations (Health & Lifestyle Questionnaire) and performed
+                                    extensive data quality checks.<a
+                                        href="https://www.ghru-southasia.org/">(https://www.ghru-southasia.org/)</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="skill-icon-img">
+                                <img src="files/img/team-lead.png" alt="Team Lead">
+                            </div>
+                            <div class="achievement-content">
+                                <h5>Team Leader (Cardio-Metabolic Risk Study)</h5>
+                                <p>Led questionnaire design, data collection, cleaning, validation, and presentation
+                                    for a study quantifying cardio-metabolic risk relationships in the urban Indian
+                                    population, including identification and evaluation of disease biomarkers.
 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+ 
     <!-- Education Section -->
     <section id="education" class="full-screen-section">
         <div class="container">
